@@ -6,10 +6,7 @@ plugins {
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-
-java {
-    sourceCompatibility = '11'
-}
+sourceCompatibility = '11'
 
 repositories {
     mavenCentral()
@@ -27,8 +24,6 @@ dependencies {
     implementation 'software.amazon.awssdk:ecs:2.7.5'
     implementation 'software.amazon.awssdk:eks:2.7.5'
     implementation 'software.amazon.awssdk:cloudwatch:2.7.5'
-    implementation 'software.amazon.awssdk:auth:2.7.5'
-
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
